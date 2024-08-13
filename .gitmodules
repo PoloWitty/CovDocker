@@ -1,0 +1,3 @@
+[submodule "covDocker_models"]
+	path = covDocker_models
+	url = https://huggingface.co/polowitty/covDocker_models

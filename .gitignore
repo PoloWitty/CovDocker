@@ -1,0 +1,78 @@
+tmp/*
+.cache/*
+Uni-Core/*
+unimol/example_data/*
+logs/*
+
+save/*
+*.pyc
+ccif/*
+
+__pycache__/*
+!./unimol/data/*
+# will match all files or folders with wandb in the name
+wandb*
+
+# data
+data/*
+!data/amino_acids
+
+# some scripts
+scripts/setup.sh
+scripts/hyper_param_search.sh
+
+unimol_tools/*
+unimol_tools/unimol_tools/weights
+unimol_tools/build
+unimol_tools/dist
+unimol_tools/logs
+unimol_tools/unimol_tools.egg-info
+
+
+# Chemformer
+cov_reaction_pred_baselines/Chemformer/models
+cov_reaction_pred_baselines/Chemformer/service
+cov_reaction_pred_baselines/Chemformer/tb_logs
+cov_reaction_pred_baselines/Chemformer/tests
+cov_reaction_pred_baselines/Chemformer/README.md
+cov_reaction_pred_baselines/Chemformer/setup.py
+cov_reaction_pred_baselines/Chemformer/wandb
+cov_reaction_pred_baselines/Chemformer/outputs
+cov_reaction_pred_baselines/Chemformer/cache
+cov_reaction_pred_baselines/Chemformer/molR_pretrained_model
+cov_reaction_pred_baselines/Chemformer/outputs
+cov_reaction_pred_baselines/Chemformer/tmp
+cov_reaction_pred_baselines/Chemformer/logs
+cov_reaction_pred_baselines/Chemformer/uspto_sep_finetuned_last.ckpt
+tmp.png
+
+# T5Chem
+cov_reaction_pred_baselines/T5Chem/data/*
+cov_reaction_pred_baselines/T5Chem/models/*
+cov_reaction_pred_baselines/T5Chem/save/*
+cov_reaction_pred_baselines/T5Chem/t5chem/data/*
+
+# reactionT5
+cov_reaction_pred_baselines/ReactionT5/forward_reaction_prediction/save/*
+cov_reaction_pred_baselines/ReactionT5/forward_reaction_prediction/wandb/*
+
+unimol_weight/*
+infer_pose/*
+
+
+cov_pocket_pred_baselines/P2Rank/p2rank_2.4.1/*
+cov_pocket_pred_baselines/P2Rank/p2rank_res/*
+cov_pocket_pred_baselines/P2Rank/res/*
+cov_pocket_pred_baselines/Fpocket/res/*
+cov_pocket_pred_baselines/Fpocket/wandb/*
+
+# dock_baseline
+cov_dock_baselines/vina/res/*
+cov_dock_baselines/vina/wandb/*
+cov_dock_baselines/smina/res/*
+cov_dock_baselines/smina/wandb/*
+cov_dock_baselines/autodock4/adCovalentDockResidue/*
+cov_dock_baselines/autodock4/mgltools_x86_64Linux2_1.5.7/*
+cov_dock_baselines/autodock4/res/*
+cov_dock_baselines/autodock4/wandb/*
+cov_dock_baselines/autodock4/x86_64Linux2
