@@ -1,0 +1,1 @@
+conda install fpocket -c conda-forge

@@ -1,0 +1,60 @@
+method: bayes
+metric:
+  goal: maximize
+  name: val_molecular_accuracy
+parameters:
+  augmentation_probability:
+    distribution: uniform
+    max: 0.8
+    min: 0.1
+  batch_size:
+    values: 
+      [32, 64, 128]
+  dropout:
+    distribution: uniform
+    max: 0.5
+    min: 0.05
+  n_epochs:
+    values:
+      [150, 250]
+  learning_rate:
+    distribution: uniform
+    max: 1e-3
+    min: 1e-4
+  weight_decay:
+    distribution: uniform
+    max: 4e-05
+    min: 1e-05
+program: fine_tune.py
+command:
+  - ${interpreter}
+  - "-m"
+  - molbart.fine_tune
+  - "--dataset_type" 
+  - covdocker_synthesis
+  - "--data_path" 
+  - ../data/processed/examples.pocket_with_smiles.random_split.csv
+  - "--model_path"
+  - models/uspto_sep_finetuned_last.ckpt
+  - "--task"
+  - forward_prediction
+  - "--vocabulary_path"
+  - bart_vocab_downstream.json
+  - "--n_gpus"
+  - 1
+  - "--check_val_every_n_epoch"
+  - 2
+  - "--limit_val_batches"
+  - 4
+  - "--schedule"
+  - cycle
+  - "--acc_batches"
+  - 8
+  - "--augmentation_strategy"
+  - all
+  - "--model_type" 
+  - bart
+  - "--warm_up_steps"
+  - 100
+  - "--use_wandb"
+  - ${args}

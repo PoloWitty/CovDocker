@@ -1,0 +1,344 @@
+data_GLY
+#
+_chem_comp.id GLY
+_chem_comp.name GLYCINE
+_chem_comp.type "PEPTIDE LINKING"
+_chem_comp.pdbx_type ATOMP
+_chem_comp.formula "C2 H5 N O2"
+_chem_comp.mon_nstd_parent_comp_id ?
+_chem_comp.pdbx_synonyms ?
+_chem_comp.pdbx_formal_charge 0
+_chem_comp.pdbx_initial_date 1999-07-08
+_chem_comp.pdbx_modified_date 2023-11-03
+_chem_comp.pdbx_ambiguous_flag N
+_chem_comp.pdbx_release_status REL
+_chem_comp.pdbx_replaced_by ?
+_chem_comp.pdbx_replaces ?
+_chem_comp.formula_weight 75.067
+_chem_comp.one_letter_code G
+_chem_comp.three_letter_code GLY
+_chem_comp.pdbx_model_coordinates_details ?
+_chem_comp.pdbx_model_coordinates_missing_flag N
+_chem_comp.pdbx_ideal_coordinates_details Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag N
+_chem_comp.pdbx_model_coordinates_db_code ?
+_chem_comp.pdbx_subcomponent_list ?
+_chem_comp.pdbx_processing_site RCSB
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_leaving_atom_flag
+_chem_comp_atom.pdbx_stereo_config
+_chem_comp_atom.pdbx_backbone_atom_flag
+_chem_comp_atom.pdbx_n_terminal_atom_flag
+_chem_comp_atom.pdbx_c_terminal_atom_flag
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_model_Cartn_x_ideal
+_chem_comp_atom.pdbx_model_Cartn_y_ideal
+_chem_comp_atom.pdbx_model_Cartn_z_ideal
+_chem_comp_atom.pdbx_component_atom_id
+_chem_comp_atom.pdbx_component_comp_id
+_chem_comp_atom.pdbx_ordinal
+GLY N N N 0 1 N N N Y Y N 25.463 35.609 47.047 1.931 0.090 -0.034 N GLY 1
+GLY CA CA C 0 1 N N N Y N N 25.329 37.024 46.850 0.761 -0.799 -0.008 CA GLY 2
+GLY C C C 0 1 N N N Y N Y 26.081 37.335 45.572 -0.498 0.029 -0.005 C GLY 3
+GLY O O O 0 1 N N N Y N Y 27.024 36.627 45.222 -0.429 1.235 -0.023 O GLY 4
+GLY OXT OXT O 0 1 N Y N Y N Y 25.702 38.256 44.874 -1.697 -0.574 0.018 OXT GLY 5
+GLY H H H 0 1 N N N Y Y N 25.494 35.150 46.159 1.910 0.738 0.738 H GLY 6
+GLY H2 HN2 H 0 1 N Y N Y Y N 26.307 35.421 47.549 2.788 -0.442 -0.037 H2 GLY 7
+GLY HA2 HA1 H 0 1 N N N Y N N 24.270 37.305 46.757 0.772 -1.440 -0.889 HA2 GLY 8
+GLY HA3 HA2 H 0 1 N N N Y N N 25.731 37.590 47.703 0.793 -1.415 0.891 HA3 GLY 9
+GLY HXT HXT H 0 1 N Y N Y N Y 26.236 38.300 44.090 -2.477 -0.002 0.019 HXT GLY 10
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_stereo_config
+_chem_comp_bond.pdbx_ordinal
+GLY N CA SING N N 1
+GLY N H SING N N 2
+GLY N H2 SING N N 3
+GLY CA C SING N N 4
+GLY CA HA2 SING N N 5
+GLY CA HA3 SING N N 6
+GLY C O DOUB N N 7
+GLY C OXT SING N N 8
+GLY OXT HXT SING N N 9
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+GLY SMILES ACDLabs 10.04 O=C(O)CN
+GLY SMILES_CANONICAL CACTVS 3.341 NCC(O)=O
+GLY SMILES CACTVS 3.341 NCC(O)=O
+GLY SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 C(C(=O)O)N
+GLY SMILES "OpenEye OEToolkits" 1.5.0 C(C(=O)O)N
+GLY InChI InChI 1.03 InChI=1S/C2H5NO2/c3-1-2(4)5/h1,3H2,(H,4,5)
+GLY InChIKey InChI 1.03 DHMQDGOQFOQNFH-UHFFFAOYSA-N
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id
+_pdbx_chem_comp_identifier.type
+_pdbx_chem_comp_identifier.program
+_pdbx_chem_comp_identifier.program_version
+_pdbx_chem_comp_identifier.identifier
+GLY "SYSTEMATIC NAME" ACDLabs 10.04 glycine
+GLY "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "2-aminoethanoic acid"
+#
+loop_
+_pdbx_chem_comp_audit.comp_id
+_pdbx_chem_comp_audit.action_type
+_pdbx_chem_comp_audit.date
+_pdbx_chem_comp_audit.processing_site
+GLY 'Create component' 1999-07-08 RCSB
+GLY 'Modify descriptor' 2011-06-04 RCSB
+GLY 'Modify backbone' 2023-11-03 PDBE
+#
+_pdbe_chem_comp_drugbank_details.comp_id GLY
+_pdbe_chem_comp_drugbank_details.drugbank_id DB00145
+_pdbe_chem_comp_drugbank_details.type 'small molecule'
+_pdbe_chem_comp_drugbank_details.name Glycine
+_pdbe_chem_comp_drugbank_details.description
+'A non-essential amino acid. It is found primarily in gelatin and silk fibroin and used therapeutically as a nutrient. It is also a fast inhibitory neurotransmitter.'
+_pdbe_chem_comp_drugbank_details.cas_number 56-40-6
+_pdbe_chem_comp_drugbank_details.mechanism_of_action
+"In the CNS, there exist strychnine-sensitive glycine binding sites as well as strychnine-insensitive glycine binding sites. The strychnine-insensitive glycine-binding site is located on the NMDA receptor complex. The strychnine-sensitive glycine receptor complex is comprised of a chloride channel and is a member of the ligand-gated ion channel superfamily. The putative antispastic activity of supplemental glycine could be mediated by glycine's binding to strychnine-sensitive binding sites in the spinal cord. This would result in increased chloride conductance and consequent enhancement of inhibitory neurotransmission. The ability of glycine to potentiate NMDA receptor-mediated neurotransmission raised the possibility of its use in the management of neuroleptic-resistant negative symptoms in schizophrenia. Animal studies indicate that supplemental glycine protects against endotoxin-induced lethality, hypoxia-reperfusion injury after liver transplantation, and D-galactosamine-mediated liver injury. Neutrophils are thought to participate in these pathologic processes via invasion of tissue and releasing such reactive oxygen species as superoxide. In vitro studies have shown that neutrophils contain a glycine-gated chloride channel that can attenuate increases in intracellular calcium and diminsh neutrophil oxidant production. This research is ealy-stage, but suggests that supplementary glycine may turn out to be useful in processes where neutrophil infiltration contributes to toxicity, such as ARDS."
+#
+loop_
+_pdbe_chem_comp_synonyms.comp_id
+_pdbe_chem_comp_synonyms.name
+_pdbe_chem_comp_synonyms.provenance
+_pdbe_chem_comp_synonyms.type
+GLY Glycine ChEMBL 'United States Accepted Names'
+GLY 'Aminoacetic acid' DrugBank ?
+GLY 'Aminoethanoic acid' DrugBank ?
+GLY Gly DrugBank ?
+GLY Glycine DrugBank ?
+GLY Glycocoll DrugBank ?
+GLY Gyn-Hydralin DrugBank 'International brand'
+#
+_pdbe_chem_comp_drugbank_classification.comp_id GLY
+_pdbe_chem_comp_drugbank_classification.drugbank_id DB00145
+_pdbe_chem_comp_drugbank_classification.parent 'Alpha amino acids'
+_pdbe_chem_comp_drugbank_classification.kingdom 'Organic compounds'
+_pdbe_chem_comp_drugbank_classification.class 'Carboxylic acids and derivatives'
+_pdbe_chem_comp_drugbank_classification.superclass 'Organic acids and derivatives'
+_pdbe_chem_comp_drugbank_classification.description
+'This compound belongs to the class of organic compounds known as alpha amino acids. These are amino acids in which the amino group is attached to the carbon atom immediately adjacent to the carboxylate group (alpha carbon).'
+#
+loop_
+_pdbe_chem_comp_drugbank_targets.comp_id
+_pdbe_chem_comp_drugbank_targets.drugbank_id
+_pdbe_chem_comp_drugbank_targets.name
+_pdbe_chem_comp_drugbank_targets.organism
+_pdbe_chem_comp_drugbank_targets.uniprot_id
+_pdbe_chem_comp_drugbank_targets.pharmacologically_active
+_pdbe_chem_comp_drugbank_targets.ordinal
+GLY DB00145 '2-amino-3-ketobutyrate coenzyme A ligase, mitochondrial' Humans O75600 unknown 1
+GLY DB00145 '5-aminolevulinate synthase, nonspecific, mitochondrial' Humans P13196 unknown 2
+GLY DB00145 '5-aminolevulinate synthase, erythroid-specific, mitochondrial' Humans P22557 unknown 3
+GLY DB00145 'Glycine--tRNA ligase' Humans P41250 unknown 4
+GLY DB00145 'Glutamate receptor ionotropic, NMDA 2A' Humans Q12879 unknown 5
+GLY DB00145 'Bile acid-CoA:amino acid N-acyltransferase' Humans Q14032 unknown 6
+GLY DB00145 'N-arachidonyl glycine receptor' Humans Q14330 unknown 7
+GLY DB00145 'Glutathione synthetase' Humans P48637 unknown 8
+GLY DB00145 'Glutamate receptor ionotropic, NMDA 2C' Humans Q14957 unknown 9
+GLY DB00145 'Serine hydroxymethyltransferase' Humans Q53ET4 unknown 10
+GLY DB00145 'Glycine N-acyltransferase' Humans Q6IB77 unknown 11
+GLY DB00145 'Serine hydroxymethyltransferase, mitochondrial' Humans P34897 unknown 12
+GLY DB00145 'Glycine N-acyltransferase-like protein 2' Humans Q8WU03 unknown 13
+GLY DB00145 'Glycine N-acyltransferase-like protein 1' Humans Q969I3 unknown 14
+GLY DB00145 'Alanine--glyoxylate aminotransferase 2, mitochondrial' Humans Q9BYV1 unknown 15
+GLY DB00145 'Peroxisomal sarcosine oxidase' Humans Q9P0Z9 unknown 16
+GLY DB00145 'Glutamate receptor ionotropic, NMDA 3B' Humans O60391 unknown 17
+GLY DB00145 'Glycine receptor subunit alpha-1' Humans P23415 unknown 18
+GLY DB00145 'Serine--pyruvate aminotransferase' Humans P21549 unknown 19
+GLY DB00145 'Glycine receptor subunit beta' Humans P48167 unknown 20
+GLY DB00145 'Serine hydroxymethyltransferase, cytosolic' Humans P34896 unknown 21
+GLY DB00145 'Glycine receptor subunit alpha-3' Humans O75311 unknown 22
+GLY DB00145 'Glycine receptor subunit alpha-2' Humans P23416 unknown 23
+GLY DB00145 'Glycine N-methyltransferase' Humans Q14749 unknown 24
+GLY DB00145 'Glycine amidinotransferase, mitochondrial' Humans P50440 unknown 25
+#
+loop_
+_software.name
+_software.version
+_software.description
+rdkit 2023.03.3 'Core functionality.'
+pdbeccdutils 0.8.4 'Wrapper to provide 2D templates and molecular fragments.'
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id
+_pdbe_chem_comp_atom_depiction.atom_id
+_pdbe_chem_comp_atom_depiction.element
+_pdbe_chem_comp_atom_depiction.model_Cartn_x
+_pdbe_chem_comp_atom_depiction.model_Cartn_y
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal
+GLY N N 6.897 0.347 1
+GLY CA C 5.598 1.097 2
+GLY C C 4.299 0.347 3
+GLY O O 3.000 1.097 4
+GLY OXT O 4.299 -1.153 5
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id
+_pdbe_chem_comp_bond_depiction.atom_id_1
+_pdbe_chem_comp_bond_depiction.atom_id_2
+_pdbe_chem_comp_bond_depiction.value_order
+_pdbe_chem_comp_bond_depiction.bond_dir
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal
+GLY N CA SINGLE NONE 1
+GLY CA C SINGLE NONE 2
+GLY C O DOUBLE NONE 3
+GLY C OXT SINGLE NONE 4
+#
+_pdbe_chem_comp_substructure.comp_id GLY
+_pdbe_chem_comp_substructure.substructure_name peptide
+_pdbe_chem_comp_substructure.id F1
+_pdbe_chem_comp_substructure.substructure_type fragment
+_pdbe_chem_comp_substructure.substructure_smiles NCC=O
+_pdbe_chem_comp_substructure.substructure_inchis InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2
+_pdbe_chem_comp_substructure.substructure_inchikeys LYIIBVSRGJSHAV-UHFFFAOYSA-N
+#
+loop_
+_pdbe_chem_comp_substructure_mapping.comp_id
+_pdbe_chem_comp_substructure_mapping.atom_id
+_pdbe_chem_comp_substructure_mapping.substructure_id
+_pdbe_chem_comp_substructure_mapping.substructure_ordinal
+GLY O F1 1
+GLY C F1 1
+GLY CA F1 1
+GLY N F1 1
+#
+_pdbe_chem_comp_rdkit_properties.comp_id GLY
+_pdbe_chem_comp_rdkit_properties.exactmw 75.032
+_pdbe_chem_comp_rdkit_properties.amw 75.067
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA 3
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD 3
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds 2
+_pdbe_chem_comp_rdkit_properties.NumHBD 2
+_pdbe_chem_comp_rdkit_properties.NumHBA 3
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms 5
+_pdbe_chem_comp_rdkit_properties.NumAtoms 10
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms 3
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds 0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3 0.500
+_pdbe_chem_comp_rdkit_properties.NumRings 0
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings 0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings 0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings 0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles 0
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles 0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles 0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles 0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms 0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms 0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters 0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters 0
+_pdbe_chem_comp_rdkit_properties.labuteASA 36.627
+_pdbe_chem_comp_rdkit_properties.tpsa 63.320
+_pdbe_chem_comp_rdkit_properties.CrippenClogP -0.970
+_pdbe_chem_comp_rdkit_properties.CrippenMR 16.690
+_pdbe_chem_comp_rdkit_properties.chi0v 2.264
+_pdbe_chem_comp_rdkit_properties.chi1v 0.882
+_pdbe_chem_comp_rdkit_properties.chi2v 0.091
+_pdbe_chem_comp_rdkit_properties.chi3v 0.091
+_pdbe_chem_comp_rdkit_properties.chi4v 0
+_pdbe_chem_comp_rdkit_properties.chi0n 7.264
+_pdbe_chem_comp_rdkit_properties.chi1n 3.185
+_pdbe_chem_comp_rdkit_properties.chi2n 0.091
+_pdbe_chem_comp_rdkit_properties.chi3n 0.091
+_pdbe_chem_comp_rdkit_properties.chi4n 0
+_pdbe_chem_comp_rdkit_properties.hallKierAlpha -0.570
+_pdbe_chem_comp_rdkit_properties.kappa1 0.733
+_pdbe_chem_comp_rdkit_properties.kappa2 1.722
+_pdbe_chem_comp_rdkit_properties.kappa3 3.430
+_pdbe_chem_comp_rdkit_properties.Phi 0.253
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id
+_pdbe_chem_comp_external_mappings.source
+_pdbe_chem_comp_external_mappings.resource
+_pdbe_chem_comp_external_mappings.resource_id
+GLY UniChem ChEMBL CHEMBL773
+GLY UniChem DrugBank DB00145
+GLY UniChem PDBe GLY
+GLY UniChem 'Guide to Pharmacology' 4084
+GLY UniChem 'Guide to Pharmacology' 4635
+GLY UniChem 'Guide to Pharmacology' 727
+GLY UniChem 'KEGG LIGAND' C00037
+GLY UniChem ChEBI 15428
+GLY UniChem ChEBI 57305
+GLY UniChem ZINC ZINC000004658552
+GLY UniChem fdasrs TE7660XO1C
+GLY UniChem PharmGKB PA449789
+GLY UniChem HMDB HMDB0000123
+GLY UniChem NMRShiftDB 10016953
+GLY UniChem ACTor 18875-39-3
+GLY UniChem ACTor 52955-63-2
+GLY UniChem ACTor 56-40-6
+GLY UniChem Recon gly
+GLY UniChem Nikkaji J1.163K
+GLY UniChem BindingDb 18133
+GLY UniChem DrugCentral 1319
+GLY UniChem MetaboLights MTBLC15428
+GLY UniChem MetaboLights MTBLC57305
+GLY UniChem BRENDA 106407
+GLY UniChem BRENDA 12424
+GLY UniChem BRENDA 12579
+GLY UniChem BRENDA 145939
+GLY UniChem BRENDA 163
+GLY UniChem BRENDA 31081
+GLY UniChem BRENDA 38017
+GLY UniChem BRENDA 39418
+GLY UniChem BRENDA 72
+GLY UniChem Rhea 57305
+GLY UniChem ChemicalBook CB5336487
+GLY UniChem DailyMed GLYCINE
+GLY UniChem ClinicalTrials GLYCINE
+GLY UniChem rxnorm GLYCINE
+GLY UniChem MedChemExpress HY-Y0966
+GLY UniChem 'Probes And Drugs' PD010204
+GLY UniChem 'EPA CompTox Dashboard' DTXSID9020667
+GLY UniChem eMolecules 483675
+GLY UniChem SureChEMBL SCHEMBL6163
+GLY UniChem 'PubChem TPHARMA' 14747327
+GLY UniChem 'PubChem TPHARMA' 16410314
+GLY UniChem PubChem 5257127
+GLY UniChem PubChem 750
+GLY UniChem Mcule MCULE-2415764032
+GLY UniChem ACTor 25718-94-9
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id
+_pdbe_chem_comp_rdkit_conformer.atom_id
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit
+_pdbe_chem_comp_rdkit_conformer.rdkit_method
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal
+GLY N -1.502 0.436 0.288 ETKDGv3 1
+GLY CA -0.593 -0.493 -0.379 ETKDGv3 2
+GLY C 0.826 -0.025 -0.273 ETKDGv3 3
+GLY O 1.307 0.737 -1.154 ETKDGv3 4
+GLY OXT 1.598 -0.397 0.823 ETKDGv3 5
+GLY H -1.402 1.380 -0.152 ETKDGv3 6
+GLY H2 -1.220 0.521 1.292 ETKDGv3 7
+GLY HA2 -0.881 -0.586 -1.449 ETKDGv3 8
+GLY HA3 -0.687 -1.497 0.087 ETKDGv3 9
+GLY HXT 2.554 -0.075 0.918 ETKDGv3 10
+#
