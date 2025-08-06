@@ -137,5 +137,19 @@ For Fpocket, P2Rank, ReactionT5, and T5Chem, you may see more details under the 
 
 ## About
 
+### Citation
+```text
+@inproceedings{peng2025covdocker, series={KDD ’25},
+   title={CovDocker: Benchmarking Covalent Drug Design with Tasks, Datasets, and Solutions},
+   url={http://dx.doi.org/10.1145/3711896.3736896},
+   DOI={10.1145/3711896.3736896},
+   booktitle={Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2},
+   publisher={ACM},
+   author={Peng, Yangzhe and Gao, Kaiyuan and He, Liang and Cong, Yuheng and Liu, Haiguang and He, Kun and Wu, Lijun},
+   year={2025},
+   month=aug, pages={2281–2290},
+   collection={KDD ’25} }
+```
+
 ### Acknowledegments
 We appreciate [FABind](https://github.com/QizhiPei/FABind/tree/main), [Uni-Mol](https://github.com/deepmodeling/Uni-Mol/tree/main), [RFAA](https://github.com/baker-laboratory/RoseTTAFold-All-Atom/tree/main), [Chemformer](https://github.com/MolecularAI/Chemformer/tree/main) and other related works for their open-sourced contributions.
